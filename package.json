@@ -1,0 +1,20 @@
+{
+  "name": "momentos-digitales-bot",
+  "version": "1.0.0",
+  "description": "Bot de WhatsApp para Momentos Digitales - invitaciones digitales",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
